@@ -1,0 +1,28 @@
+{
+  "name": "api-2",
+  "version": "1.0.0",
+  "description": "ejemplo 2",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/"
+  },
+  "author": "Juan",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "bootstrap": "^5.3.8",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "mongo": "^0.1.0",
+    "mongodb": "^6.20.0",
+    "mongoose": "^8.18.2",
+    "morgan": "^1.10.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
